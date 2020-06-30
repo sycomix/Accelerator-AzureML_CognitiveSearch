@@ -3,7 +3,7 @@
 Now that we have a endpoint for Azure ML service for NER, we will configure Cognitive Search to integrate with  deployed Azure ML service for NER
 
 
-### Configure Conginitive Search
+### Configure Congnitive Search
 
 Run the "Add NER Skill" notebook to:
 

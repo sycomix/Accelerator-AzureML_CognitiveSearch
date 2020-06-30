@@ -10,7 +10,7 @@ The markdown skill is a simple Azure Function that accepts the content of a mark
 ### Build the Markdown Skill
 Make sure that you have the required prerequisites as mentioned [here](https://docs.microsoft.com/en-us/azure/developer/python/tutorial-vs-code-serverless-python-01)
 1. Open the [markdown_skill](./markdown_skill/) folder in Visual Studio Code
-2. VS code will prompt you to Create virtual environment as it Failed to find Python Virtual environment. Click "Create virtual environment" button. You wil then be prompted to Select a Python interpreter to create a virtual environment. Select Python 3.6.x or 3.7.x. Once the virtual environment is created, you will get a message that it finished creating virtual environment.
+2. VS code will prompt you to Create virtual environment as it Failed to find Python Virtual environment. Click "Create virtual environment" button. You will then be prompted to Select a Python interpreter to create a virtual environment. Select Python 3.6.x or 3.7.x. Once the virtual environment is created, you will get a message that it finished creating virtual environment.
 3. Press F5 to debug locally using Postman. Test the skill with the [sample request](sample/markdown_req.json). You should get a response from the function as shown below:
 ![Response from Postman](../images/markdownparserskill.png) 
 
@@ -99,10 +99,10 @@ You'll need to have docker installed to run through this folder. You can either 
 ![Select image to deploy](../images/deploy1.png)
 12. Click on the ellipses of the tag and select the `Deploy to web app` option:
 ![Select deploy as web app](../images/deploy2.png)
-13. On the wepapp deployment blade, fill out the required information to deploy. Note: You need to create Linux App Service Plan to complete this step. 
+13. On the webapp deployment blade, fill out the required information to deploy. Note: You need to create Linux App Service Plan to complete this step. 
 ![Complete web app deployment](../images/deploy3.png)
 14. Once the deployment completes your container should be ready to test
-15. Test the container by clicking on the URL of the deployed web app, you should see a message `To invoke the skill POST the custom skill request payload to the /label endpoint. To set the custom entities, POST to the /annotations endopoint. For a sample, GET the /annotations.`
+15. Test the container by clicking on the URL of the deployed web app, you should see a message `To invoke the skill POST the custom skill request payload to the /label endpoint. To set the custom entities, POST to the /annotations endpoint. For a sample, GET the /annotations.`
 
 ### Setup and Use
 

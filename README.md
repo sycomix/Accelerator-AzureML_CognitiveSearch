@@ -46,7 +46,7 @@ First, deploy the necessary resources onto Azure:
 
 Next, walk through the folders sequentially and follow the steps outlined in each README:
 
-### [01 - Deploy Custom Skils](./01_Deploy_Skills/README.md)
+### [01 - Deploy Custom Skills](./01_Deploy_Skills/README.md)
 
 There are two custom skills that will be deployed to generate NER Labeled data from. Deploy a [Custom Skill](https://docs.microsoft.com/en-us/azure/search/cognitive-search-custom-skill-interface) to label data in [CONLL format](http://cs229.stanford.edu/proj2005/KrishnanGanapathy-NamedEntityRecognition.pdf) based on a pre-determined list of entities (see [labels.json](./01_Deploy_Skills/labels.json)). The custom Label skill is created using a Flask API App, wrapped up into a docker container and then deployed onto a [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/).
 
