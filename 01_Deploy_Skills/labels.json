@@ -1,0 +1,782 @@
+[
+	{
+		"name": "Active Directory",
+		"type": "Product"
+	},
+	{
+		"name": "Active Directory B2C",
+		"type": "Product"
+	},
+	{
+		"name": "Active Directory Domain Services",
+		"type": "Product"
+	},
+	{
+		"name": "Advisor",
+		"type": "Product"
+	},
+	{
+		"name": "Analysis Services",
+		"type": "Product"
+	},
+	{
+		"name": "Anomaly Detector",
+		"type": "Product"
+	},
+	{
+		"name": "API Apps",
+		"type": "Product"
+	},
+	{
+		"name": "API for FHIR",
+		"type": "Product"
+	},
+	{
+		"name": "API Management",
+		"type": "Product"
+	},
+	{
+		"name": "App Configuration",
+		"type": "Product"
+	},
+	{
+		"name": "App Service",
+		"type": "Product"
+	},
+	{
+		"name": "Application Gateway",
+		"type": "Product"
+	},
+	{
+		"name": "Application Insights",
+		"type": "Product"
+	},
+	{
+		"name": "Arc",
+		"type": "Product"
+	},
+	{
+		"name": "Archive Storage",
+		"type": "Product"
+	},
+	{
+		"name": "Artifacts",
+		"type": "Product"
+	},
+	{
+		"name": "Automation",
+		"type": "Product"
+	},
+	{
+		"name": "Avere vFXT",
+		"type": "Product"
+	},
+	{
+		"name": "Azure China 21Vianet",
+		"type": "Product"
+	},
+	{
+		"name": "Azure DevOps",
+		"type": "Product"
+	},
+	{
+		"name": "Azure Germany",
+		"type": "Product"
+	},
+	{
+		"name": "Azure NetApp Files",
+		"type": "Product"
+	},
+	{
+		"name": "Azure Notebooks",
+		"type": "Product"
+	},
+	{
+		"name": "Azure Stack",
+		"type": "Product"
+	},
+	{
+		"name": "Azure US Government",
+		"type": "Product"
+	},
+	{
+		"name": "Bastion",
+		"type": "Product"
+	},
+	{
+		"name": "Batch",
+		"type": "Product"
+	},
+	{
+		"name": "Bing Custom Search",
+		"type": "Product"
+	},
+	{
+		"name": "Bing Entity Search",
+		"type": "Product"
+	},
+	{
+		"name": "Bing Visual Search",
+		"type": "Product"
+	},
+	{
+		"name": "Bing Web Search",
+		"type": "Product"
+	},
+	{
+		"name": "Blob Storage",
+		"type": "Product"
+	},
+	{
+		"name": "Blockchain Service",
+		"type": "Product"
+	},
+	{
+		"name": "Blockchain Tokens",
+		"type": "Product"
+	},
+	{
+		"name": "Blockchain Workbench",
+		"type": "Product"
+	},
+	{
+		"name": "Blueprints",
+		"type": "Product"
+	},
+	{
+		"name": "Boards",
+		"type": "Product"
+	},
+	{
+		"name": "Bot Service",
+		"type": "Product"
+	},
+	{
+		"name": "Cache for Redis",
+		"type": "Product"
+	},
+	{
+		"name": "Cloud Services",
+		"type": "Product"
+	},
+	{
+		"name": "Cloud Shell",
+		"type": "Product"
+	},
+	{
+		"name": "Cognitive Search",
+		"type": "Product"
+	},
+	{
+		"name": "Cognitive Services",
+		"type": "Product"
+	},
+	{
+		"name": "Computer Vision",
+		"type": "Product"
+	},
+	{
+		"name": "Container Instances",
+		"type": "Product"
+	},
+	{
+		"name": "Container Registry",
+		"type": "Product"
+	},
+	{
+		"name": "Content Delivery Network",
+		"type": "Product"
+	},
+	{
+		"name": "Content Protection",
+		"type": "Product"
+	},
+	{
+		"name": "Cosmos DB",
+		"type": "Product"
+	},
+	{
+		"name": "Cost Management",
+		"type": "Product"
+	},
+	{
+		"name": "CycleCloud",
+		"type": "Product"
+	},
+	{
+		"name": "Data Box Family",
+		"type": "Product"
+	},
+	{
+		"name": "Data Catalog",
+		"type": "Product"
+	},
+	{
+		"name": "Data Explorer",
+		"type": "Product"
+	},
+	{
+		"name": "Data Factory",
+		"type": "Product"
+	},
+	{
+		"name": "Data Lake",
+		"type": "Product"
+	},
+	{
+		"name": "Data Lake Analytics",
+		"type": "Product"
+	},
+	{
+		"name": "Data Lake Storage",
+		"type": "Product"
+	},
+	{
+		"name": "Data Science Virtual Machines",
+		"type": "Product"
+	},
+	{
+		"name": "Data Share",
+		"type": "Product"
+	},
+	{
+		"name": "Database for MariaDB",
+		"type": "Product"
+	},
+	{
+		"name": "Database for MySQL",
+		"type": "Product"
+	},
+	{
+		"name": "Database for PostgreSQL",
+		"type": "Product"
+	},
+	{
+		"name": "Database Migration Service",
+		"type": "Product"
+	},
+	{
+		"name": "Databricks",
+		"type": "Product"
+	},
+	{
+		"name": "DDoS Protection",
+		"type": "Product"
+	},
+	{
+		"name": "Dedicated Host",
+		"type": "Product"
+	},
+	{
+		"name": "Dedicated HSM",
+		"type": "Product"
+	},
+	{
+		"name": "Dev Spaces",
+		"type": "Product"
+	},
+	{
+		"name": "Developer tool integrations",
+		"type": "Product"
+	},
+	{
+		"name": "DevOps tool integrations",
+		"type": "Product"
+	},
+	{
+		"name": "DevTest Labs",
+		"type": "Product"
+	},
+	{
+		"name": "Digital Twins",
+		"type": "Product"
+	},
+	{
+		"name": "Disk Storage",
+		"type": "Product"
+	},
+	{
+		"name": "DNS",
+		"type": "Product"
+	},
+	{
+		"name": "Encoding",
+		"type": "Product"
+	},
+	{
+		"name": "Event Grid",
+		"type": "Product"
+	},
+	{
+		"name": "Event Hubs",
+		"type": "Product"
+	},
+	{
+		"name": "ExpressRoute",
+		"type": "Product"
+	},
+	{
+		"name": "Face",
+		"type": "Product"
+	},
+	{
+		"name": "File Storage",
+		"type": "Product"
+	},
+	{
+		"name": "Files",
+		"type": "Product"
+	},
+	{
+		"name": "Firewall",
+		"type": "Product"
+	},
+	{
+		"name": "Firewall Manager",
+		"type": "Product"
+	},
+	{
+		"name": "Form Recognizer",
+		"type": "Product"
+	},
+	{
+		"name": "Front Door",
+		"type": "Product"
+	},
+	{
+		"name": "Functions",
+		"type": "Product"
+	},
+	{
+		"name": "FXT Edge Filler",
+		"type": "Product"
+	},
+	{
+		"name": "HDInsight",
+		"type": "Product"
+	},
+	{
+		"name": "HPC Cache",
+		"type": "Product"
+	},
+	{
+		"name": "Immersive Reader",
+		"type": "Product"
+	},
+	{
+		"name": "Information Protection",
+		"type": "Product"
+	},
+	{
+		"name": "Ink Recognizer",
+		"type": "Product"
+	},
+	{
+		"name": "Internet Analyzer",
+		"type": "Product"
+	},
+	{
+		"name": "IoT",
+		"type": "Product"
+	},
+	{
+		"name": "IoT Central",
+		"type": "Product"
+	},
+	{
+		"name": "IoT Edge",
+		"type": "Product"
+	},
+	{
+		"name": "IoT Hub",
+		"type": "Product"
+	},
+	{
+		"name": "IoT Solution Accelerators",
+		"type": "Product"
+	},
+	{
+		"name": "Key Vault",
+		"type": "Product"
+	},
+	{
+		"name": "Kinect DK",
+		"type": "Product"
+	},
+	{
+		"name": "Kubernetes Service",
+		"type": "Product"
+	},
+	{
+		"name": "Lab Services",
+		"type": "Product"
+	},
+	{
+		"name": "Language Understanding",
+		"type": "Product"
+	},
+	{
+		"name": "Lighthouse",
+		"type": "Product"
+	},
+	{
+		"name": "Linux Virtual Machines",
+		"type": "Product"
+	},
+	{
+		"name": "Load Balancer",
+		"type": "Product"
+	},
+	{
+		"name": "Log Analytics",
+		"type": "Product"
+	},
+	{
+		"name": "Logic Apps",
+		"type": "Product"
+	},
+	{
+		"name": "Machine Learning",
+		"type": "Product"
+	},
+	{
+		"name": "Machine Learning Studio",
+		"type": "Product"
+	},
+	{
+		"name": "Managed Applications",
+		"type": "Product"
+	},
+	{
+		"name": "Managed Disks",
+		"type": "Product"
+	},
+	{
+		"name": "Maps",
+		"type": "Product"
+	},
+	{
+		"name": "Media Analytics",
+		"type": "Product"
+	},
+	{
+		"name": "Media Player",
+		"type": "Product"
+	},
+	{
+		"name": "Media Services",
+		"type": "Product"
+	},
+	{
+		"name": "Microsoft Azure portal",
+		"type": "Product"
+	},
+	{
+		"name": "Microsoft Genomics",
+		"type": "Product"
+	},
+	{
+		"name": "Migrate",
+		"type": "Product"
+	},
+	{
+		"name": "Mobile Apps",
+		"type": "Product"
+	},
+	{
+		"name": "Monitor",
+		"type": "Product"
+	},
+	{
+		"name": "Network Watcher",
+		"type": "Product"
+	},
+	{
+		"name": "Notification Hubs",
+		"type": "Product"
+	},
+	{
+		"name": "Open Datasets",
+		"type": "Product"
+	},
+	{
+		"name": "Personalizer",
+		"type": "Product"
+	},
+	{
+		"name": "Pipelines",
+		"type": "Product"
+	},
+	{
+		"name": "PlayFab",
+		"type": "Product"
+	},
+	{
+		"name": "Policy",
+		"type": "Product"
+	},
+	{
+		"name": "Power BI Embedded",
+		"type": "Product"
+	},
+	{
+		"name": "Private Link",
+		"type": "Product"
+	},
+	{
+		"name": "QnA Maker",
+		"type": "Product"
+	},
+	{
+		"name": "Quantum",
+		"type": "Product"
+	},
+	{
+		"name": "Queue Storage",
+		"type": "Product"
+	},
+	{
+		"name": "R Server for HDInsight",
+		"type": "Product"
+	},
+	{
+		"name": "Red Hat OpenShift",
+		"type": "Product"
+	},
+	{
+		"name": "Remote Rendering",
+		"type": "Product"
+	},
+	{
+		"name": "Repos",
+		"type": "Product"
+	},
+	{
+		"name": "Resource Graph",
+		"type": "Product"
+	},
+	{
+		"name": "Resource Manager",
+		"type": "Product"
+	},
+	{
+		"name": "SAP HANA on Azure Large Instances",
+		"type": "Product"
+	},
+	{
+		"name": "Scheduler",
+		"type": "Product"
+	},
+	{
+		"name": "SDKs",
+		"type": "Product"
+	},
+	{
+		"name": "Search",
+		"type": "Product"
+	},
+	{
+		"name": "Security Center",
+		"type": "Product"
+	},
+	{
+		"name": "Security Center for IoT",
+		"type": "Product"
+	},
+	{
+		"name": "Sentinel",
+		"type": "Product"
+	},
+	{
+		"name": "Service Bus",
+		"type": "Product"
+	},
+	{
+		"name": "Service Fabric",
+		"type": "Product"
+	},
+	{
+		"name": "Service Health",
+		"type": "Product"
+	},
+	{
+		"name": "SignalR Service",
+		"type": "Product"
+	},
+	{
+		"name": "Site Recovery",
+		"type": "Product"
+	},
+	{
+		"name": "Spatial Anchors",
+		"type": "Product"
+	},
+	{
+		"name": "Speaker Recognition",
+		"type": "Product"
+	},
+	{
+		"name": "Speech to Text",
+		"type": "Product"
+	},
+	{
+		"name": "Speech Translation",
+		"type": "Product"
+	},
+	{
+		"name": "Sphere",
+		"type": "Product"
+	},
+	{
+		"name": "Spring Cloud",
+		"type": "Product"
+	},
+	{
+		"name": "SQL Database",
+		"type": "Product"
+	},
+	{
+		"name": "SQL Database Edge",
+		"type": "Product"
+	},
+	{
+		"name": "SQL Server on Virtual Machines",
+		"type": "Product"
+	},
+	{
+		"name": "SQL Server Stretch Database",
+		"type": "Product"
+	},
+	{
+		"name": "Stack Edge",
+		"type": "Product"
+	},
+	{
+		"name": "Stack HCI",
+		"type": "Product"
+	},
+	{
+		"name": "Storage",
+		"type": "Product"
+	},
+	{
+		"name": "Storage Accounts",
+		"type": "Product"
+	},
+	{
+		"name": "Storage Explorer",
+		"type": "Product"
+	},
+	{
+		"name": "StorSimple",
+		"type": "Product"
+	},
+	{
+		"name": "Stream Analytics",
+		"type": "Product"
+	},
+	{
+		"name": "Synapse Analytics",
+		"type": "Product"
+	},
+	{
+		"name": "Table Storage",
+		"type": "Product"
+	},
+	{
+		"name": "Test Plans",
+		"type": "Product"
+	},
+	{
+		"name": "Text Analytics",
+		"type": "Product"
+	},
+	{
+		"name": "Text to Speech",
+		"type": "Product"
+	},
+	{
+		"name": "Time Series Insights",
+		"type": "Product"
+	},
+	{
+		"name": "Traffic Manager",
+		"type": "Product"
+	},
+	{
+		"name": "Translator Speech",
+		"type": "Product"
+	},
+	{
+		"name": "Translator Text",
+		"type": "Product"
+	},
+	{
+		"name": "Video Indexer",
+		"type": "Product"
+	},
+	{
+		"name": "Virtual Machine Scale Sets",
+		"type": "Product"
+	},
+	{
+		"name": "Virtual Machines",
+		"type": "Product"
+	},
+	{
+		"name": "Virtual Network",
+		"type": "Product"
+	},
+	{
+		"name": "Virtual WAN",
+		"type": "Product"
+	},
+	{
+		"name": "VMware Solution by CloudSimple",
+		"type": "Product"
+	},
+	{
+		"name": "VPN Gateway",
+		"type": "Product"
+	},
+	{
+		"name": "Web App for Containers",
+		"type": "Product"
+	},
+	{
+		"name": "Web Application Firewall",
+		"type": "Product"
+	},
+	{
+		"name": "Web Apps",
+		"type": "Product"
+	},
+	{
+		"name": "Windows Virtual Machines",
+		"type": "Product"
+	},
+	{
+		"name": "indexer",
+		"type": "Feature"
+	},
+	{
+		"name": "cache",
+		"type": "Feature"
+	},
+	{
+		"name": "analyzer",
+		"type": "Feature"
+	},
+	{
+		"name": "scoring profile",
+		"type": "Feature"
+	},
+	{
+		"name": "boosting",
+		"type": "Feature"
+	},
+	{
+		"name": "knowledge store",
+		"type": "Feature"
+	}
+]

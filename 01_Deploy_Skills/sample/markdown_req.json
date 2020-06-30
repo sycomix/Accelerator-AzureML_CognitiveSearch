@@ -1,0 +1,10 @@
+{
+    "values": [
+        {
+            "recordId": "0",
+            "data": {
+                "doc": "# Objective\n1. Deploy a markdown parser skill that will strip out the markdown tags from a document\n2. Deploy a label skill that will generate the IOB tags for specific named entities based on seed data\n## Build and Deploy the Markdown Skill\nThe markdown skill is a simple Azure Function that accepts the content of a markdown file and returns the text. \n### Build the Markdown Skill \n1. Open the Azure function app in the MarkdownSkill folder in Visual Studio Code\n2. Build and run the skill locally\n3. Test the skill with the [sample request](sample/markdown_req.json)"
+            }
+        }
+    ]
+}
