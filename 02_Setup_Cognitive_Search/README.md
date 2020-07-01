@@ -1,6 +1,6 @@
 # Build the Knowledge Mining enrichment pipeline
 
-Now that the label skill has been deployed, we will create an [enrichment pipeline in Cognitive Search](https://docs.microsoft.com/en-us/azure/search/cognitive-search-concept-intro) to call the skill and generate the training dataset. You'll create the enrichment pipeline using the [CogSearchInitializer](CogSearchInitializer.ipynb) Jupyter Notebook, but first you'll need to upload your data to Azure Blob Storage.
+Now that the label skill has been deployed, we will create an [enrichment pipeline in Cognitive Search](https://docs.microsoft.com/en-us/azure/search/cognitive-search-concept-intro) to call the skill and generate the training dataset. You'll create the enrichment pipeline using the [CogSearchInitializer](02_Initialize_Cognitive_Search.ipynb) Jupyter Notebook, but first you'll need to upload your data to Azure Blob Storage.
 
 ## Create a dataset
 
