@@ -8,7 +8,7 @@ Note: Compute instances are replacing the Notebook VM. In regions where compute 
 
 ## Getting Started
 
-If you are going to use Azure ML Compute Instance or Notebook VM, download the notebooks from the 01_Train_and_Deploy folder to a folder in "User Files as shown below.
+If you are going to use Azure ML Compute Instance or Notebook VM, download the notebooks from the 04_Train_and_Deploy folder to a folder in "User Files as shown below.
 
 ![Upload Notebooks](../images/01_userfilesupdate.PNG)
 
