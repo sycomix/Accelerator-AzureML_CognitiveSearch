@@ -20,11 +20,9 @@ logger = logging.getLogger(__name__)
 
 def compose_response(json_data, nlp):
     values = json.loads(json_data)['values']
-    
+
     # Prepare the Output before the loop
-    results = {}
-    results["values"] = []
-    
+    results = {"values": []}
     for value in values:
         output_record = transform_value(value, nlp)
         if output_record != None:
@@ -77,18 +75,17 @@ def annotate_doc(raw_doc, nlp):
     param = [[token.text, token.tag_] for token in doc]
     df=pd.DataFrame(param)
     headers = ['text',  'tag']
-    df.columns = headers  
-    sentence_count = 0
-
+    df.columns = headers
     output = []
-    for sent in doc.sents:
-        line = { "sentence" : sent.text, "sentence_count": sentence_count}
-        line["annotations"] = []
-
+    for sentence_count, sent in enumerate(doc.sents):
+        line = {
+            "sentence": sent.text,
+            "sentence_count": sentence_count,
+            "annotations": [],
+        }
         for token in sent:
             line["annotations"].append({"token": token.text, "POS": token.tag_, "label": 'O' if token._.type == False else token._.type})
         output.append(line)
-        sentence_count += 1
     return output
 
 class CustomTagsComponent(object):
@@ -130,15 +127,14 @@ class CustomTagsComponent(object):
         in the pipeline, if available.
         """
         matches = self.matcher(doc)
-        
+
         prevMatch=None
         mainMatch=None
         processFlag=False
-        matchNo=0
         updatedMatches = []
-        for match in matches:
+        for matchNo, match in enumerate(matches):
             if (matchNo>0):
-                if(processFlag==False):
+                if (processFlag==False):
                     if(match[1]==prevMatch[1] and match[2]>prevMatch[2]):
                         mainMatch=match
                         processFlag=True
@@ -147,29 +143,26 @@ class CustomTagsComponent(object):
                         processFlag=True
                     if(match[1]>=prevMatch[2] ):
                         updatedMatches.append(prevMatch)
-                else:
-                    if(match[1]>=mainMatch[2]):
-                        updatedMatches.append(mainMatch)
-                        processFlag=False
+                elif (match[1]>=mainMatch[2]):
+                    updatedMatches.append(mainMatch)
+                    processFlag=False
 
-            if(matchNo == len(matches)-1):
-                if(processFlag==True):
+            if (matchNo == len(matches)-1):
+                if (processFlag==True):
                     if(match[1]==prevMatch[1] and match[2]>prevMatch[2]):
                         updatedMatches.append(match)
                     else:
                         updatedMatches.append(mainMatch)
                 else:
-                     updatedMatches.append(match)
+                    updatedMatches.append(match)
             prevMatch=match
-            matchNo += 1        
-        
         spans = []  # keep the spans for later so we can merge them afterwards
         for _, start, end in updatedMatches:
             # Generate Span representing the entity & set label
             entity = Span(doc, start, end, label=self.label)
             spans.append(entity)
             # Set custom attribute on each token of the entity
-            
+
             first = True
             for token in entity:
                 token._.set("is_product", True)
@@ -181,7 +174,7 @@ class CustomTagsComponent(object):
 
             # Overwrite doc.ents and add entity  be careful not to replace!
             doc.ents = list(doc.ents) + [entity]
-        
+
         return doc  # don't forget to return the Doc!
 
     def has_product(self, tokens):
@@ -189,7 +182,7 @@ class CustomTagsComponent(object):
         is a product. Since the getter is only called when we access the
         attribute, we can refer to the Token's 'is_product' attribute here,
         which is already set in the processing step."""
-        return any([t._.get("is_product") for t in tokens])
+        return any(t._.get("is_product") for t in tokens)
 
 def save_labels(body):
     with open('labels.json', 'r+', encoding='utf-8') as f:
